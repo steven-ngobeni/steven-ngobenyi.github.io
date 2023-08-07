@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  min-height:100%;
+  background-image: url(https://img.freepik.com/free-photo/wide-shot-building-where-workers-are-cleaning-walls-windows_181624-5433.jpg?t=st=1691101300~exp=1691101900~hmac=b1dd79182475cf5fdea4dbb66b20a478e0664b2622b88c94f477733be10f602a);
+}
+
+
+ul li{
+	transition:none;
+	width:160px;
+	height: 30px;
+	text-align:center;
+	list-style:none;
+	margin-left:200px;
+	margin-top: auto;
+	font-size: 21px;
+	border: 2px solid green;
+	border-radius: 30px;
+	background:#588c7e;
+	font-weight: bold;
+	color:white;
+	cursor: pointer;
+	position:relative;
+	overflow:hidden;
+	transition:0.7s;
+	margin-right:0px;
+
+}
+
+
+.content1 {
+	width: 100%;
+	position:absolute;
+	top: 40%;
+	transition:translateY(-50%);
+	text-align:center;
+	color:#fff;
+}
+
+
+.content2{
+	height:530px;
+	border-radius: 20px;
+	border: 2px white;
+}
+
+
+.form1{
+	color:#fff;
+	background:#2F4F4F;
+}
+
+h3{
+	text-align: center;
+	border: 2px solid yellow;
+	font-family: calibri;
+	padding-left:10px;
+	border-left:20px 0;
+	margin-left:100px;
+	padding-right:50px;
+	margin-right:50px;
+	top: 40%;
+	color:#fff;
+	background:#2F4F4F;
+}
+
+
+label{
+	border: 2px solid yellow;
+	font-family: calibri;
+	background-color: gray;
+	padding-left:10px;
+	border-left:20px 0;
+	margin-left:100px;
+	padding-right:50px;
+	margin-right:50px;
+	top: 40%;
+	background:#2F4F4F;
+}
+
+
+.content1 h1{
+	font-size: 45px;
+}
+
+
+h4{
+	font-size: 30px;
+	text-align:center;
+}
+
+
+.logo{
+	color:#ffffff;
+	font-size: 30px;
+	font-family:Arial;
+	padding-left:10px;
+	float:left;
+	padding-top:10px;
+}
+
+
+article{
+	background-image: url();
+	border: 2px solid yellow;
+	font-family: calibri;
+	background-color: #66757F;
+	padding-left:10px;
+	border-left:20px 0;
+	margin-left:10px;
+	padding-right:16px;
+	margin-right:10px;
+}
+
+ul{
+	transition:translateY(-30%);
+	display:flex;
+	height: 115px;
+	align-items:center;
+	padding-top: 20px 0;
+	padding-bottom:45px;
+	background-color: lighter;
+	margin-bottom: 40px;
+	margin-top: 20px;	
+	border-radius:30px;
+	background:#8ca3a3;
+	margin-right:10px;	
+}
+
+.port a{
+	color:black;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+p{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+tr td:first-child {
+	height:40px;
+}
+
+
+table{
+	
+	width:900px;
+	border-radius: 30px;
+	background:#588c7e;
+	padding-left:100px;
+	border-left:20px 0;
+	margin-left:90px;
+	padding-right:16px;
+	margin-right:10px;
+	height: 115px;
+	margin:170px;
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+	
+}
+
+h5{
+font-size: 20px;
+text-align: center;
+color: white;
+}
+
+tr td:first-child {
+	font-family:Garamond;
+	color: #fff;
+	font-weight:bold;
+}
+
+
+tr td {
+	font-family:Garamond;
+	color: #e6e2d3;
+	font-weight:bold;
+	font-size: 18px;
+}
+
+
+ul li:hover{
+	background:green;
+	width:234px;
+}
+
+
+footer{
+	margin:500px 0px;
+	text-align:center;
+	background-color:#008B8B;
+	width: 100%;
+	position:absolute;
+	top: 40%;
+	
+}
